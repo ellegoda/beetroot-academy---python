@@ -9,5 +9,4 @@ def call():
     except KeyError:
         print("An Key Error Handle")
 
-
 call()
