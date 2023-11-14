@@ -10,9 +10,8 @@ class CustomException(Exception):
         except Exception as e:
             print(f"Error while logging to file: {e}")
 
-# Example usage:
+
 try:
-    # Some code that may raise the custom exception
     raise CustomException("This is a custom exception.")
 except CustomException as ce:
     print(f"Caught custom exception: {ce}")
